@@ -1,0 +1,41 @@
+Network ACL use case
+
+Network ACL use case (Choose the image to enlarge.)
+
+For an image description, choose the category:
+Accessibility notes (optional).
+
+The network ACL controls access to instances in a subnet and acts as a backup layer of defense. Network ACL rules apply to all instances in the subnet. 
+
+In the example, instances in your subnet can communicate with each other and are accessible from a trusted remote computer. The remote computer might be a computer in your local network or an instance in a different subnet or VPC. You use it to connect to your instances to perform administrative tasks.
+
+A Region contains one VPC with C I D R (cider) range 10.0.0.0/16. The VPC spans one Availability Zone (A Z) labeled Availability Zone 2. One public subnet with cider 10.0.1.0/24 is placed inside A Z 2. A security group box surrounds multiple instances. One line connects a client with IP 172.31.1.2/32 with the security group box. Another line connects to a description of security group sg-1a2b3c4d. Inbound, allow all traffic from sg-1a2b3c4d. Allow SSH traffic from 172.31.1.2/32. Outbound, allow all traffic from sg-1a2b3c4d. A box labeled ‘network acl-11223344’ is connected to A Z 2. Inbound, rule number 100. SSH 172.31.1.2/32 ALLOW. Rule number *. All traffic 0.0.0.0/0 DENY. Outbound, Rule number 100. Custom TCP 172.31.1.2/32 ALLOW. Rule number *. All traffic 0.0.0.0/0 DENY.
+
+Your security group rules and network ACL rules allow access from the IP address of your remote computer (172.31.1.2/32). All other traffic from the internet or other networks is denied.
+
+For more information, visit Control traffic to subnets using Network ACLs in the Amazon Virtual Private Cloud User Guide.
+
+Resources
+
+    AWS Networking Fundamentals (Video)
+
+IP Addressing
+
+    VPCs and Subnets (AWS documentation)
+    IPv4 CIDR block association restrictions (AWS documentation)
+    How do I modify the IPv4 address range of an Amazon VPC? (AWS documentation)
+    Non-RFC 1918 CIDR Block (AWS documentation)
+    Bring Your Own IP Address to the Cloud (Video)
+
+VPC Fundamentals
+
+    One to Many: Evolving VPC Design (AWS Architecture Blog)
+    VPC sharing: key considerations and best practices (AWS Networking and Content Delivery)
+    Field Notes: Launch Amazon EMR with a Static Private IP in a Private Subnet (AWS Architecture Blog)
+    Advanced VPC design and new capabilities for Amazon VPC (Video, AWS re:Invent 2020)
+    Secure your workloads with NAT Gateway (Video)
+    Latest design of VPC (Video)
+
+VPC Traffic Security
+
+    VPC Traffic Mirroring – Capture & Inspect Network Traffic (AWS News Blog)
