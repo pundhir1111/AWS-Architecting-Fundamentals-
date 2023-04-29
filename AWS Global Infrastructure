@@ -2,4 +2,18 @@ AWS Global Infrastructure, Total regions 31 each with multiple availablity zones
 99 Availablity zones.
 In one region minimum 2 Availablity Zone will be there.
 
+AWS Pricing calculater is service which help to estimate the cost of AWS product and servicing.
+
+https://calculator.aws/#/
+
+Under the compute Most used service as devops engineer
+Compute -EC2, ECS, ECR, Lambda, EMR
+Auth and security- IAM, KMS, Secret Manager
+Storage- S3, RDS, Dynamo DB, Document DB
+Monitoring and logging- CloudWatch, Kinesis Streams
+Devops on AWS- Codecommit, Code deploy, code build, codepipeline
+Infrastructure- Cloudformation(Like Terraform), systemmanager(Like Ansible)
+Networking- VPC, SG, NAT, IG
+
+
 
