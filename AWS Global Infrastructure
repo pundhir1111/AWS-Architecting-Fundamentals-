@@ -13,7 +13,7 @@ Storage- S3, RDS, Dynamo DB, Document DB
 Monitoring and logging- CloudWatch, Kinesis Streams
 Devops on AWS- Codecommit, Code deploy, code build, codepipeline
 Infrastructure- Cloudformation(Like Terraform), systemmanager(Like Ansible)
-Networking- VPC, SG, NAT, IG
+Networking- VPC, SG, NAT, IG, Route53
 
 
 
