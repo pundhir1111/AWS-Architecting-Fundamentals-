@@ -6,6 +6,17 @@ AWS Pricing calculater is service which help to estimate the cost of AWS product
 
 https://calculator.aws/#/
 
+Ireland is cheeper in services.
+
+Set up cloudWatch alarm for billing more then 5 USD.
+
+VPC-
+
+EC2
+launch Templates- 
+Autoscalling-
+IAM-
+
 Under the compute Most used service as devops engineer
 Compute -EC2, ECS, ECR, Lambda, EMR
 Auth and security- IAM, KMS, Secret Manager
@@ -14,6 +25,7 @@ Monitoring and logging- CloudWatch, Kinesis Streams
 Devops on AWS- Codecommit, Code deploy, code build, codepipeline
 Infrastructure- Cloudformation(Like Terraform), systemmanager(Like Ansible)
 Networking- VPC, SG, NAT, IG, Route53
+
 
 
 
