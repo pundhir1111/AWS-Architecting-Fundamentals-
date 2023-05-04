@@ -15,7 +15,33 @@ VPC-
 EC2
 launch Templates- 
 Autoscalling-
-IAM-
+IAM- 
+
+EC2-
+volume-
+Root Volume-
+EBS Volume-
+Scale up- 
+Scale out-
+EFS
+NFS
+
+Storage-
+
+S3- Bucket name should be unique, it is a global service.
+Cross account bucket access, you need to enable the ACLs, we recommand is to disable the ACLs.
+Project-
+Create S3
+Create IAM user
+Create EC2-Install AWS cli-aws configure with IWM USER Access key and access password.
+Create folder and file in ed2 machine and mv that file to S3.
+sync EC2 files with S3 with command.
+AWS local directory path of S3 directory --recursive
+aws s3 cp s3 s3://mayanktrainingbucket --recursive
+
+
+
+
 
 Under the compute Most used service as devops engineer
 Compute -EC2, ECS, ECR, Lambda, EMR
